@@ -4,7 +4,7 @@ The purpose of this notebook is to apply time series analysis techniques to fore
 
 **1. Data Loading and Preprocessing** The dataset was loaded, converted to a time-series index, and split into training (1964-1969) and testing (1970+) sets for out-of-time evaluation.
 
-**2. Exploratory Data Analysis (EDA)** The time series shows trends, seasonality, and non-stationarity. Seasonal decomposition (additive and multiplicative models) identified components, and a de-seasonalized version was plotted.
+**2. Exploratory Data Analysis** The time series shows trends, seasonality, and non-stationarity. Seasonal decomposition (additive and multiplicative models) identified components, and a de-seasonalized version was plotted.
 
 **3. Stationarity and Differencing** Stationarity was confirmed using the Augmented Dickey-Fuller test and autocorrelation functions. Seasonal differencing with a 12-month lag (D=1) sufficiently stabilized the series.
 
