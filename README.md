@@ -10,6 +10,6 @@ The purpose of this notebook is to apply time series analysis techniques to fore
 
 **4. SARIMA Modeling** SARIMA parameters p and q were proposed, then optimised using pmdarima auto_arima. The best model was SARIMA(0,0,0)(0,1,0)[12]. 
 
-**5. Machine Learning Approach** A Random Forest model was trained on lagged sales features (x_1 to x_12). The Mean Absolute Percentage Error (MAPE) for 1-month horizon predictions was 0.16. Feature engineering was explored to reduce the MAPE to 0.15, using additional rolling and exponential moving average features. 
+**5. Machine Learning Approach** A Random Forest model was trained on lagged sales features (x_1 to x_12). The Mean Absolute Percentage Error (MAPE) for 1-month horizon predictions was 0.163. Feature engineering was explored to reduce the MAPE to 0.147, using additional rolling and exponential moving average features. 
 
 **6. Out-of-Sample Forecasting** A Random Forest model was trained for each prediction horizon. The model's MAPE was then compared with SARIMA's. Machine learning models improved out-of-sample forecasts compared to SARIMA's static seasonal predictions.
